@@ -58,19 +58,19 @@ home.html
     </div>
     <div class="home">
         <div class="head">
-        <h1>A Software Agency shaping</br>ideas into </br>Products</h1>
-        <p class="quote">"People who are really in serious about Software </br>should make their hardware"- Alan key </p>
+        <h1>A Software Agency shaping<br>ideas into <br>Products</h1>
+        <p class="quote">"People who are really in serious about Software <br>should make their hardware"- Alan key </p>
         <button class="join">Join us</button>
     </div>
     <div class="login">
         <h2 class="log">login Here</h2> 
         <div class="logbox">
-        <input type="text" placeholder="username or email" class="but"></input></br></br>
-        <input type="text"  placeholder="password" class="but"> </input></br></br>
-        <button type="submit" class="bute">Login</button></br></br>
+        <input type="text" placeholder="username or email" class="but">
+        <input type="text"  placeholder="password" class="but"> 
+        <button type="submit" class="bute">Login</button>
         <hr id="loge">
         </div>
-        <p> &nbsp;&nbsp;&nbsp;&nbsp;Don't have an account </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Sign up</u> here.</p>
+        <p> &nbsp;&nbsp;&nbsp;&nbsp;Don't have an account >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Sign up</u> here.</p>
 
     </div>
     </div>
@@ -190,12 +190,12 @@ h1{
         </div>
     </div>
     <div class="person">
-        <li> <img src="./sanjay.jpeg" class="bod"></br><span> &nbsp;&nbsp;&nbsp;Sanjay</span><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CEO</p></li>
-        <li> <img src="./stark.jpeg"  class="bod"></br><span>&nbsp;&nbsp;&nbsp;Tony</span><P>&nbsp;&nbsp;&nbsp;&nbsp;Founder</P></li>
-        <li> <img src="./steve.jpeg" class="bod"></br><span>&nbsp;&nbsp;&nbsp;Steve</span><p>&nbsp;&nbsp;&nbsp;&nbsp;Co-Founder</li>
-        <li> <img src="./Thor1.jpeg"class="bod" ></br><span>&nbsp;&nbsp;&nbsp;Thor</span><p>&nbsp;&nbsp;&nbsp;&nbsp;Director</p></li>
-        <li> <img src="./loki.webp" class="bod"></br><span>&nbsp;&nbsp;&nbsp;Loki</span><p>&nbsp;&nbsp;&nbsp;&nbsp;Assi Director</p></li>
-        <li> <img src="./black.jpeg" class="bod"></br><span>&nbsp;&nbsp;&nbsp;Tichala</span><P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MD</P></li>
+        <li> <img src="./sanjay.jpeg" class="bod"><br><span> &nbsp;&nbsp;&nbsp;Sanjay</span><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CEO</p></li>
+        <li> <img src="./stark.jpeg"  class="bod"><br><span>&nbsp;&nbsp;&nbsp;Tony</span><P>&nbsp;&nbsp;&nbsp;&nbsp;Founder</P></li>
+        <li> <img src="./steve.jpeg" class="bod"><br><span>&nbsp;&nbsp;&nbsp;Steve</span><p>&nbsp;&nbsp;&nbsp;&nbsp;Co-Founder</li>
+        <li> <img src="./Thor1.jpeg"class="bod" ><br><span>&nbsp;&nbsp;&nbsp;Thor</span><p>&nbsp;&nbsp;&nbsp;&nbsp;Director</p></li>
+        <li> <img src="./loki.webp" class="bod"><br><span>&nbsp;&nbsp;&nbsp;Loki</span><p>&nbsp;&nbsp;&nbsp;&nbsp;Assi Director</p></li>
+        <li> <img src="./black.jpeg" class="bod"><br><span>&nbsp;&nbsp;&nbsp;Tichala</span><P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MD</P></li>
     </div>
     <footer>
     <div  class="colored-line">
@@ -394,11 +394,11 @@ contact.html
     <div class="detail">
     <h1> Contact Us</h1>
     <br>
-    <input type="text" placeholder="Your Name"></inupt> 
+    <input type="text" placeholder="Your Name">
     <br><br>
-    <input type="text" placeholder="Your Email"></inupt>
+    <input type="text" placeholder="Your Email">
     <br><br>
-    <input type="text" placeholder="Your Message" class="comment"></inupt>
+    <input type="text" placeholder="Your Message" class="comment">
     <br><br>
     <button type="submit" class="submit">Submit</button>
 
