@@ -45,7 +45,7 @@ home.html
     </head>
     <body>
         <div class="nav">
-            <div class="logo"><img src="./logo1.jpg" alt="logo" height="60px"></div>
+            <div class="logo"><img src="./logo.png" alt="logo" height="60px"></div>
             <li><a href="./home.html">Home</a></li>
             <li><a href="peroson.html">People</a></li>
             <li><a href="./products.html">Products</a></li>
@@ -58,25 +58,25 @@ home.html
     </div>
     <div class="home">
         <div class="head">
-        <h1>A Software Agency shaping<br>ideas into <br>Products</h1>
-        <p class="quote">"People who are really in serious about Software <br>should make their hardware"- Alan key </p>
+        <h1>A Software Agency shaping</br>ideas into </br>Products</h1>
+        <p class="quote">"People who are really in serious about Software </br>should make their hardware"- Alan key </p>
         <button class="join">Join us</button>
     </div>
     <div class="login">
         <h2 class="log">login Here</h2> 
         <div class="logbox">
-        <input type="text" placeholder="username or email" class="but">
-        <input type="text"  placeholder="password" class="but"> 
-        <button type="submit" class="bute">Login</button>
+        <input type="text" placeholder="username or email" class="but"></input></br></br>
+        <input type="text"  placeholder="password" class="but"> </input></br></br>
+        <button type="submit" class="bute">Login</button></br></br>
         <hr id="loge">
         </div>
-        <p> &nbsp;&nbsp;&nbsp;&nbsp;Don't have an account >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Sign up</u> here.</p>
+        <p> &nbsp;&nbsp;&nbsp;&nbsp;Don't have an account </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Sign up</u> here.</p>
 
     </div>
     </div>
     <footer>
         <div  class="colored-line">
-            <h5>Design and developed by Mr.SANJAY.C &copy;2023</h5>
+            <h5>Design and developed by Mr.R.Harish kumar &copy;2023</h5>
         </div>
     </footer>
 
@@ -85,100 +85,16 @@ home.html
     </body>
 </html>
 ```
-
-stylehome.css 
-```css
-.nav{
-    display: flex;
-    justify-content:center;
-    gap: 50px;
-    margin-top: 25px ;  
-}
-
-li{
-    list-style: none;
-    font-weight: 100px;
-    
-}
-
-body{
-    background-color: gold;
-
-  }
-
-*{
-    font-size:20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 10px;
-.home{
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    gap:250px;
-
-}
-.login{
-    background-color: #545375;
-    text-align: center;
-    width:250px;
-
-}
-.log{
-    padding: 5px;
-    background-color: pink;
-    border-radius: 8px;
-}
-.but{
-    border-radius: 10px;
-    background-color:;
-}
-.bute{
-    border-radius: 10px;
-    background-color: chocolate;
-
-}
-#loge{
-    border-color: pink;
-    border-width: 2px;
-}
-h1{
-    color: red;
-    font-size: 50px;
-}
-.join{
-    border-radius: 10px;
-    background-color:chocolate;
-    padding:10px;
-    width: 100px ;
-    margin-top: 25px;
-}
-.quote{
-    font-style: oblique;
-    font-style: italic;
-}
-.colored-line {
-    width: 100%; 
-    height: 25px; 
-    background-color:red;
-    text-align: center;
-    
-  }
-  .button{
-    background-color: chocolate;
-  }
-  ```
-  person.html
-  ```html
-  <html>
+## person.html
+```html
+<html>
     <head>
         <link rel="stylesheet" href="./personstyle.css">
 
     </head>
     <body>
         <div class="nav">
-            <div class="logo"><img src="./logo1.jpg" alt="logo" height="60px"></div>
+            <div class="logo"><img src="./logo.png" alt="logo" height="60px"></div>
             <li><a href="./home.html">Home</a></li>
             <li><a href="peroson.html">People</a></li>
             <li><a href="./products.html">Products</a></li>
@@ -190,25 +106,25 @@ h1{
         </div>
     </div>
     <div class="person">
-        <li> <img src="./sanjay.jpeg" class="bod"><br><span> &nbsp;&nbsp;&nbsp;Sanjay</span><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CEO</p></li>
-        <li> <img src="./stark.jpeg"  class="bod"><br><span>&nbsp;&nbsp;&nbsp;Tony</span><P>&nbsp;&nbsp;&nbsp;&nbsp;Founder</P></li>
-        <li> <img src="./steve.jpeg" class="bod"><br><span>&nbsp;&nbsp;&nbsp;Steve</span><p>&nbsp;&nbsp;&nbsp;&nbsp;Co-Founder</li>
-        <li> <img src="./Thor1.jpeg"class="bod" ><br><span>&nbsp;&nbsp;&nbsp;Thor</span><p>&nbsp;&nbsp;&nbsp;&nbsp;Director</p></li>
-        <li> <img src="./loki.webp" class="bod"><br><span>&nbsp;&nbsp;&nbsp;Loki</span><p>&nbsp;&nbsp;&nbsp;&nbsp;Assi Director</p></li>
-        <li> <img src="./black.jpeg" class="bod"><br><span>&nbsp;&nbsp;&nbsp;Tichala</span><P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MD</P></li>
+        <li> <img src="./my.jpeg" class="bod"></br><span> &nbsp;&nbsp;&nbsp;Harish</span><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CEO</p></li>
+        <li> <img src="./bheem.jpeg" class="bod"></br><span>&nbsp;&nbsp;&nbsp;Bheem</span><P>&nbsp;&nbsp;&nbsp;&nbsp;Founder</P></li>
+        <li> <img src="./hat.jpeg"class="bod"></br><span>&nbsp;&nbsp;&nbsp;Hatori</span><p>&nbsp;&nbsp;&nbsp;&nbsp;Co-Founder</li>
+        <li> <img src="./dori.jpg" class="bod" ></br><span>&nbsp;&nbsp;&nbsp;Doramen</span><p>&nbsp;&nbsp;&nbsp;&nbsp;Director</p></li>
+        <li> <img src="./mot.jpeg "class="bod"></br><span>&nbsp;&nbsp;&nbsp;Motu-paltu</span><p>&nbsp;&nbsp;&nbsp;&nbsp;Assi Director</p></li>
+        <li> <img src="./shinchan.png "class="bod"></br><span>&nbsp;&nbsp;&nbsp;ShinChan</span><P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MD</P></li>
     </div>
     <footer>
     <div  class="colored-line">
-        <h5>Design and developed by Mr.Sanjay.C &copy;2023</h5>
+        <h5>Design and developed by Mr.R.Harish kumar  &copy;2023</h5>
     </div>
 </footer>
     
     
     </body>
 </html>
-  ```
-personstyle.css
-```css
+```
+### Person.css
+```css 
 .nav{
     display: flex;
     justify-content:center;
@@ -229,7 +145,7 @@ li{
 }
 .bod{
     height: 100px;
-    border: 3px solid orangered;
+    border: 3px solid rgb(243, 198, 182);
 
 }
 *{
@@ -246,7 +162,7 @@ span{
 .colored-line {
     width: 100%; 
     height: 25px; 
-    background-color:red;
+    background-color:rgb(6, 247, 167);
     text-align: center;
     margin-top: 200px;
   }
@@ -259,7 +175,7 @@ span{
       
   }
 ```
-product.html
+### product.html
 ```html
 <html>
     <head>
@@ -268,7 +184,7 @@ product.html
     </head>
     <body>
         <div class="nav">
-            <div class="logo"><img src="./logo1.jpg" alt="logo" height="60px"></div>
+            <div class="logo"><img src="./logo.png" alt="logo" height="60px"></div>
             <li><a href="./home.html">Home</a></li>
             <li><a href="peroson.html">People</a></li>
             <li><a href="./products.html">Products</a></li>
@@ -280,22 +196,20 @@ product.html
         </div>
     </div>
     <div>
-        <img src="./products.jpg" alt="product" class="imge">
+        <img src="./products.png" alt="product" class="imge">
     </div>
     <footer>
         <div  class="colored-line">
-            <h5>Design and developed by Mr.SANJAY.C &copy;2023</h5>
+            <h5>Design and developed by Mr.R.Harish kumar  &copy;2023</h5>
         </div>
     </footer>
     
     
     </body>
 </html>
-
 ```
-
-styleproduct.css
-```css
+### Product.css
+```css 
 .nav{
     display: flex;
     justify-content:center;
@@ -317,19 +231,19 @@ li{
 }
 
   body{
-    background-color: gold;
+    background-color: #f10e80;
 
   }
 .imge{
     border-radius: 10px;
-    height: 550px;
-    margin-top: 100px;
+    height: 450;
+    margin-top: 60px;
     margin-left: 450px;
 }
 .colored-line {
     width: 100%; 
     height: 25px; 
-    background-color:red;
+    background-color:rgb(92, 25, 25);
     text-align: center;
     margin-top: 110px;
     border-radius: 0;
@@ -347,30 +261,30 @@ li{
     font-weight: 1000px;
   }
   .info{
-    background-color:pink;
+    background-color:rgb(10, 25, 235);
     padding: 10px;
-    border: 3px solid orange;
+    border: 3px solid rgb(223, 177, 91);
     border-radius: 30px;
     
   }
   .detail{
-    background-color: pink;
+    background-color: rgb(231, 18, 54);
     padding: 10px;
-    border: 3px solid orange;
+    border: 3px solid rgb(10, 10, 9);
     border-radius: 30px;
 
   }
   .comment{
     padding:50px; }
   .submit{
-    background-color: chocolate;
+    background-color: rgb(69, 241, 16);
   }
   .button{
-    background-color: chocolate;
+    background-color: rgb(9, 22, 211);
   }
   
 ```
-contact.html
+### contact 
 ```html
 <html>
     <head>
@@ -379,7 +293,7 @@ contact.html
     </head>
     <body>
         <div class="nav">
-            <div class="logo"><img src="./logo1.jpg" alt="logo" height="60px"></div>
+            <div class="logo"><img src="./logo.png" alt="logo" height="60px"></div>
             <li><a href="./home.html">Home</a></li>
             <li><a href="peroson.html">People</a></li>
             <li><a href="./products.html">Products</a></li>
@@ -394,11 +308,11 @@ contact.html
     <div class="detail">
     <h1> Contact Us</h1>
     <br>
-    <input type="text" placeholder="Your Name">
+    <input type="text" placeholder="Your Name"></inupt> 
     <br><br>
-    <input type="text" placeholder="Your Email">
+    <input type="text" placeholder="Your Email"></inupt>
     <br><br>
-    <input type="text" placeholder="Your Message" class="comment">
+    <input type="text" placeholder="Your Message" class="comment"></inupt>
     <br><br>
     <button type="submit" class="submit">Submit</button>
 
@@ -406,26 +320,26 @@ contact.html
 <div class="info">
     <h1>Contact information</h1>
     <br>
-    <span><strong>Address:</strong></span>    thandalam,kancheepuram,Chennai-600028</p>
-    <span><strong>Email:</strong></span>    avengersofficial@gmail.com</p>
+    <span><strong>Address:</strong></span>    Church street,kommedu,gingee,villupuram-604205.</p>
+    <span><strong>Email:</strong></span>    cris.jpt@gmail.com</p>
     <span><strong>Phone: </strong></span> 044-46055</p>
 
 </div>
 </div>
 <footer>
     <div  class="colored-line">
-        <h5>Design and developed by Mr.SANJAY.C &copy;2023</h5>
+        <h5>Design and developed by Mr.R.Harish kumar &copy;2023</h5>
     </div>
 </footer>
     
   
     
-    ]
+    
     </body>
 </html>
 ```
+### contact.css
 
-stylecontact.css
 ```css
 .contact{
     display: flex;
@@ -439,7 +353,7 @@ stylecontact.css
     font-weight: 1000px;
   }
   .info{
-    background-color:pink;
+    background-color:rgb(253, 12, 12);
     padding: 10px;
     border: 3px solid orange;
     border-radius: 30px;
@@ -447,7 +361,7 @@ stylecontact.css
     
   }
   .detail{
-    background-color: pink;
+    background-color: rgb(49, 224, 14);
     padding: 10px;
     border: 3px solid orange;
     border-radius: 30px;
@@ -491,8 +405,6 @@ h1{
     margin-top: 35px;
   }
 ```
-
-
 ## OUTPUT:
 
 ### Home Page:
