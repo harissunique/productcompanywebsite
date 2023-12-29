@@ -1,0 +1,80 @@
+.nav{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    margin-top: 25px ;  
+}
+
+li{
+    list-style: none;
+    font-weight: 100px;
+    
+}
+
+body{
+    background-color: rgb(23, 241, 15);
+
+  }
+
+*{
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+.home{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap:250px;
+
+}
+.login{
+    background-color: #04d2f7;
+    text-align: center;
+    width:250px;
+
+}
+.log{
+    padding: 5px;
+    background-color: rgb(26, 76, 240);
+    border-radius: 8px;
+}
+.but{
+    border-radius: 10px;
+    background-color:;
+}
+.bute{
+    border-radius: 10px;
+    background-color: rgb(14, 240, 82);
+
+}
+#loge{
+    border-color: pink;
+    border-width: 2px;
+}
+h1{
+    color: red;
+    font-size: 50px;
+}
+.join{
+    border-radius: 10px;
+    background-color:rgb(194, 157, 130);
+    padding:10px;
+    width: 100px ;
+    margin-top: 25px;
+}
+.quote{
+    font-style: oblique;
+    font-style: italic;
+}
+.colored-line {
+    width: 100%; 
+    height: 25px; 
+    background-color:red;
+    text-align: center;
+    
+  }
+  .button{
+    background-color: chocolate;
+  }
